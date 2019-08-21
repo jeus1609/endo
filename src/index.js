@@ -2,24 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-class Square extends React.Component {
-    //cuando agregamos el contructor en el Board ya no necesitamos este construcctor
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         value: null,
-    //     };
-    // }
-
-    render() {
-        return (
-            <button
-                className="square"
-                onClick={() => this.props.onClick()}>
-                {this.props.value}
-            </button>
-        );
-    }
+function Square(props) {
+    return (
+        <button className="square" onClick={props.onClick}>
+            {props.value}
+        </button>
+    );
 }
 
 class Board extends React.Component {
@@ -27,7 +15,17 @@ class Board extends React.Component {
         super(props);
         this.state = {
             squares: Array(9).fill(null),
+            xIsNext: true,
         };
+    }
+
+    handleClick(i) {
+        const squares = this.state.squares.slice();
+        squares[i] = this.state.xIsNext ? 'X' : 'O';
+        this.setState({
+            squares: squares,
+            xIsnext: !this.state.xIsNext,
+        });
     }
 
     renderSquare(i) {
@@ -40,7 +38,7 @@ class Board extends React.Component {
     }
 
     render() {
-        const status = 'Siguiente Jugada: X';
+        const status = 'Siguiente Jugada: ' + (this.state.xIsNext ? 'X' : 'O');
 
         return (
             <div>
@@ -87,3 +85,22 @@ ReactDOM.render(
     <Game/>,
     document.getElementById('root')
 );
+
+// class Square extends React.Component {
+//     //cuando agregamos el contructor en el Board ya no necesitamos este construcctor
+//     // constructor(props) {
+//     //     super(props);
+//     //     this.state = {
+//     //         value: null,
+//     //     };
+//     // }
+//     render() {
+//         return (
+//             <button
+//                 className="square"
+//                 onClick={() => this.props.onClick()}>
+//                 {this.props.value}
+//             </button>
+//         );
+//     }
+// }

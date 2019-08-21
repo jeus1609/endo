@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b932a78d-0b4c-4da3-96b9-e4303f4163c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/TIC_Chincheros.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -31,7 +30,7 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -97,8 +96,19 @@
       <workItem from="1565967049583" duration="427000" />
       <workItem from="1565967750611" duration="19653000" />
       <workItem from="1566233324893" duration="4160000" />
-      <workItem from="1566246914847" duration="4025000" />
+      <workItem from="1566246914847" duration="7003000" />
+      <workItem from="1566306941324" duration="33000" />
+      <workItem from="1566306988815" duration="4362000" />
+      <workItem from="1566344144640" duration="9517000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit previo a dar interactividad con los cuadrados">
+      <created>1566251055438</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566251055438</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit previo a dar interactividad con los cuadrados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit previo a dar interactividad con los cuadrados" />
   </component>
 </project>
