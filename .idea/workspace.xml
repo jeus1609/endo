@@ -99,7 +99,7 @@
       <workItem from="1566246914847" duration="7003000" />
       <workItem from="1566306941324" duration="33000" />
       <workItem from="1566306988815" duration="4362000" />
-      <workItem from="1566344144640" duration="9517000" />
+      <workItem from="1566344144640" duration="13577000" />
     </task>
     <task id="LOCAL-00001" summary="Commit previo a dar interactividad con los cuadrados">
       <created>1566251055438</created>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566251055438</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="previo a insertar la forma de determinar al ganador">
+      <created>1566421745862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566421745862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit previo a dar interactividad con los cuadrados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit previo a dar interactividad con los cuadrados" />
+    <MESSAGE value="previo a insertar la forma de determinar al ganador" />
+    <option name="LAST_COMMIT_MESSAGE" value="previo a insertar la forma de determinar al ganador" />
   </component>
 </project>
