@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b932a78d-0b4c-4da3-96b9-e4303f4163c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +32,7 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566425909225</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Previo a la prueba de retorno con historial de acciones">
+      <created>1566488550245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566488550245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +154,7 @@
     <MESSAGE value="Commit previo a dar interactividad con los cuadrados" />
     <MESSAGE value="previo a insertar la forma de determinar al ganador" />
     <MESSAGE value="insertar funcion ganador" />
-    <option name="LAST_COMMIT_MESSAGE" value="insertar funcion ganador" />
+    <MESSAGE value="Previo a la prueba de retorno con historial de acciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Previo a la prueba de retorno con historial de acciones" />
   </component>
 </project>
